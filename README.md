@@ -1,5 +1,46 @@
 # Platform Engineering Documentation
 
+# Platform Engineering Documentation
+
+This repository contains all internal documentation for the Platform Engineering team.
+
+📌 **Source of Truth:** GitHub  
+📌 **Rendered UI:** Wiki.js (Git Sync enabled)
+
+## Structure Overview
+- `00-overview`: High-level introduction, architecture, glossary
+- `01-onboarding`: New engineer onboarding guides
+- `02-standards`: Engineering & security standards
+- `03-architecture`: Detailed system and infra architecture
+- `04-services`: Internal service documentation
+- `05-how-to-guides`: Task-focused guides
+- `06-runbooks`: On-call and operational runbooks
+- `07-troubleshooting`: Known issues and debugging patterns
+- `08-security`: Security guidelines & processes
+- `09-adrs`: Architecture Decision Records
+- `10-operations`: RCAs, maintenance, backup, checklists
+
+---
+
+## Using with Wiki.js
+1. Go to: `Administration → Storage → Git`
+2. Set repository URL of this repo
+3. Choose branch: `main`
+4. Set sync mode: **Bidirectional**
+5. Set folder path: `docs/`
+
+---
+
+## Contributing
+1. Create a branch  
+2. Make updates  
+3. Submit PR for review
+
+---
+
+
+
+
 platform-docs/
 │
 ├── README.md
